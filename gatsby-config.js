@@ -17,6 +17,26 @@ module.exports = {
     // Content of the About Me section
     about: `Hey! I am an interdiscplinary scientist in the making. From nanotechnology to high-throughput molecular biology and bioinformatics, I am interested in many things. I am inclined to a research-driven career, combining wet-lab, engineering, and computational approaches for understanding why one would think of puppies when specifically asked to not to think about them (other adorable animals are just as applicable).`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    projects: [
+      {
+        name: 'Evaluation of Hypoxia-induced Astrocytic Commitment of Neuroepithelial Stem Cells',
+        description:
+        'Master\'s thesis project undertaken at the in vitro neural systems lab https://www.herlandlab.com/',
+        link: 'https://github.com/d-wdj/thesis/blob/master/Abstract.md',
+      },
+      {
+        name: 'Transcriptomic Analysis of Hepatocellular Carcinoma Progression',
+        description:
+        'A group project with the goal of investigating differentially expressed genes across 4 disease state progressions. Conducted at KTH Royal Institute of Technology',
+        link: 'https://github.com/d-wdj/BB2491/wiki',
+      },
+      {
+        name: 'Protein Secondary Structure Prediction using Supervised Machine Learning Methods',
+        description:
+        'Individual research project comparing support vector machine, decision tree, and random forest methods. Undertaken at Stockholm University.',
+        link: 'https://github.com/d-wdj/KB8024',
+      },
+    ],
     experience: [
       {
         name: 'BC Platforms (Singapore) | Bioinformatician - APAC Customer Success | 2021 Sep - Present',
@@ -33,26 +53,6 @@ module.exports = {
       //   description: 'Full-Stack Developer, May 2015 - December 2017',
       //   link: 'https://github.com/RyanFitzgerald/devfolio',
       // },
-    ],
-    projects: [
-      {
-        name: 'Evaluation of Hypoxia-induced Astrocytic Commitment of Neuroepithelial Stem Cells',
-        description:
-          'Master\'s thesis project undertaken at the in vitro neural systems lab https://www.herlandlab.com/',
-        link: 'https://github.com/d-wdj/thesis/blob/master/Abstract.md',
-      },
-      {
-        name: 'Transcriptomic Analysis of Hepatocellular Carcinoma Progression',
-        description:
-          'A group project with the goal of investigating differentially expressed genes across 4 disease state progressions. Conducted at KTH Royal Institute of Technology',
-        link: 'https://github.com/d-wdj/BB2491/wiki',
-      },
-      {
-        name: 'Protein Secondary Structure Prediction using Supervised Machine Learning Methods',
-        description:
-          'Individual research project comparing support vector machine, decision tree, and random forest methods. Undertaken at Stockholm University.',
-        link: 'https://github.com/d-wdj/KB8024',
-      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     // Optional: List your skills, they must have `name` and `description`.

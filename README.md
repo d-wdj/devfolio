@@ -1,3 +1,5 @@
+Build status: [![Netlify Status](https://api.netlify.com/api/v1/badges/779d1ce6-e2c3-4f75-88ce-30be9cdce226/deploy-status)](https://app.netlify.com/sites/d-wdj/deploys)
+---
 # Devfolio
 
 ![Preview](https://user-images.githubusercontent.com/9112801/96329524-c8906600-101b-11eb-8fd8-4d45e7f0cd1b.jpg)
@@ -25,18 +27,29 @@ For a live demo of a slightly customized version of the template (my own persona
 
 ## Contents
 
-- [Adding Your Information](#adding-your-information)
-  - [General](#general)
-  - [About Me](#about-me)
-  - [Projects](#projects)
-  - [Experience](#experience)
-  - [Skills](#skills)
-- [Setting Up The Blog](#setting-up-the-blog)
-- [Running Locally](#running-locally)
-- [Deploying](#deploying)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+- [Devfolio](#devfolio)
+  - [Demo](#demo)
+  - [Contents](#contents)
+  - [Adding Your Information](#adding-your-information)
+    - [General](#general)
+    - [About Me](#about-me)
+    - [Projects](#projects)
+    - [Experience](#experience)
+    - [Skills](#skills)
+  - [Setting Up The Blog](#setting-up-the-blog)
+    - [Adding a New Blog Post](#adding-a-new-blog-post)
+  - [Running Locally](#running-locally)
+  - [Deploying](#deploying)
+    - [Netlify](#netlify)
+    - [Vercel](#vercel)
+    - [GitHub Pages](#github-pages)
+    - [Other](#other)
+  - [Customization](#customization)
+    - [Gatsby Customization](#gatsby-customization)
+    - [Adding or Updating Components](#adding-or-updating-components)
+    - [Adding or Updating Pages](#adding-or-updating-pages)
+    - [Adding or Updating Styles](#adding-or-updating-styles)
+  - [License](#license)
 
 ## Adding Your Information
 
