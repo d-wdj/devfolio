@@ -4,6 +4,7 @@ import React from 'react';
 const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
+  subtitle: 'text-italics text-gray-700',
   description: 'text-md text-gray-600 font-light',
 };
 
@@ -24,6 +25,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
       >
         {link ? linkContent : name}
       </h3>
+      <p className={classes.subtitle}>{subtitle}</p>
       <p className={classes.description}>{description}</p>
     </div>
   );

@@ -12,7 +12,7 @@ const SectionExperience = ({ experience }) => {
         <SummaryItem
           key={item.name}
           name={item.name}
-          subtitle={item.name}
+          subtitle={item.subtitle}
           description={item.description}
           link={item.link}
         />
