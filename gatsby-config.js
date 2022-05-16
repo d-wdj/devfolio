@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Dimitri Wirjowerdojo',
     // Main Site Title
-    title: `Dimitri Wirjowerdojo | Bioinformatician`,
+    title: `Dimitri Wdj | Bioinformatician`,
     // Description that goes under your name in main bio
     description: `Bioinformatics — High-Throughput Biology — Nanotechnology`,
     // Optional: Twitter account handle
@@ -20,7 +20,7 @@ module.exports = {
       {
         name: ' BC Platforms (Singapore 🇸🇬)',
         subtitle: 'Bioinformatician - APAC Customer Success | 2021 Sep - Present',
-        description: 'On-boarding and assisting customers with BC Platforms lines of products. Pipeline building(DNAseq, RNAseq). Application installation on on-prem VM or cloud (Google Cloud, Microsoft Azure).',
+        description: 'On-boarding and assisting customers with BC Platforms lines of products. Pipeline building (DNAseq, RNAseq). Application installation on on-prem VM or cloud (Google Cloud, Microsoft Azure).',
         link: 'https://www.bcplatforms.com/',
       },
       {
@@ -38,15 +38,15 @@ module.exports = {
     // Education
     education: [
       {
-        name: 'MSc Molecular Techniques in Life Science',
+        name: 'MSc Molecular Techniques in Life Science (Stockholm 🇸🇪)',
         subtitle: '2016 Aug - 2018 June',
-        description: 'Karolinska Institutet, KTH Royal Institute of Technology, and Stockholms Universitetet under the banner of Science for Life Laboratory (Stockholm 🇸🇪)',
+        description: 'Karolinska Institutet, KTH Royal Institute of Technology, and Stockholms Universitetet at the Science for Life Laboratory',
         link: 'https://www.kth.se/en/studies/master/molecular-techniques-life-science/msc-molecular-techniques-in-life-science',
       },
       {
-        name: 'BSc (Honours) Nanotechnology (Chemical)',
+        name: 'BSc (Honours) Nanotechnology (Chemical) (Leeds 🇬🇧)',
         subtitle: '2013 Sep - 2016 June',
-        description: 'University of Leeds (Leeds 🇬🇧)',
+        description: 'University of Leeds',
         link: 'http://webprod3.leeds.ac.uk/catalogue/dynprogrammes.asp?Y=201314&P=BS-SOMS%2FNTC',
       }
     ],
@@ -61,7 +61,7 @@ module.exports = {
       {
         name: 'Transcriptomic Analysis of Hepatocellular Carcinoma Progression',
         description:
-        'A group project with the goal of investigating differentially expressed genes across 4 disease state progressions. Conducted at KTH Royal Institute of Technology',
+        'A group project with the goal of investigating differentially expressed genes across 4 disease state progressions. Conducted at KTH Royal Institute of Technology/Science for Life Laboratory',
         link: 'https://github.com/d-wdj/BB2491/wiki',
       },
       {
@@ -77,16 +77,16 @@ module.exports = {
       {
         name: 'Tech Stack',
         description:
-          'Python, LaTeX, Bash, R, Git, Docker, Windows, macOS, Linux, Google Cloud, Microsoft Azure',
+          'Python, LaTeX, Bash, R, Git, Docker, Windows, macOS, Linux, Google Cloud, Microsoft Azure, Cromwell-WDL, Nextflow, SQL (PostgreSQL, IBM db2)',
       },
       {
         name: 'Computational & Analytics',
-        description: 'DNA genotyping, NGS analysis (DNAseq, RNAseq, long-read sequencing), Ligand docking',
+        description: 'DNA genotyping, NGS analysis - DNAseq (SNV, Indels, SV); RNAseq (Expression, Fusions, HLA-typing, T/BCR); Long-read sequencing (SARS-CoV-2), Ligand docking',
       },
       {
         name: 'Laboratory Skills',
         description:
-          'Cell culture (CHO, HEK293, AF-22 ltNES, U87), Immunocytochemistry, RNA extraction, RT-qPCR, Droplet microfluidics, gold nanoparticle synthesis',
+          'Adherent & suspension cell culture (CHO, HEK293, AF-22 ltNES, U87), Immunocytochemistry, RNA extraction, RT-qPCR, Droplet microfluidics, gold nanoparticle synthesis',
       },
       {
         name: 'Topics of Interest',
