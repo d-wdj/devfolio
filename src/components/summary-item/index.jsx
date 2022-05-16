@@ -8,7 +8,7 @@ const classes = {
   description: 'text-md text-gray-600 font-light',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false }) => {
+const SummaryItem = ({ name, subtitle = false, description, link = false, internal = false }) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
