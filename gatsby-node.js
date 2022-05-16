@@ -82,6 +82,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type SectionItem {
       name: String!
+      subtitle: String!
       description: String!
       link: String!
     }
@@ -96,7 +97,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       date: Date @dateformat
     }
-    
+
     type Fields {
       slug: String
     }

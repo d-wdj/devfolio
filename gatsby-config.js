@@ -19,7 +19,7 @@ module.exports = {
     experience: [
       {
         name: 'BC Platforms (Singapore) | Bioinformatician - APAC Customer Success | 2021 Sep - Present',
-        description: 'On-boarding and assisting customers with BC Platforms lines of products.Pipeline building(DNAseq, RNAseq). Application installation on on- prem VM or cloud(Google Cloud, Microsoft Azure).',
+        description: 'On-boarding and assisting customers with BC Platforms lines of products. Pipeline building(DNAseq, RNAseq). Application installation on on-prem VM or cloud (Google Cloud, Microsoft Azure).',
         link: 'https://www.bcplatforms.com/',
       },
       {
