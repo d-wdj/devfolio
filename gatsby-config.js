@@ -1,75 +1,85 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://d-wdj.com/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Dimitri Wirjowerdojo',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Dimitri Wirjowerdojo | Bioinformatician`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Bioinformatics — High-Throughput Biology — Nanotechnology`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/d-wdj/`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/d-wdj/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hey! I am an interdiscplinary scientist in the making. From nanotechnology to high-throughput molecular biology and bioinformatics, I am interested in many things. I am inclined to a research-driven career, combining wet-lab, engineering, and computational approaches for understanding why one would think of puppies when specifically asked to not to think about them (other adorable animals are just as applicable).`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    experience: [
+      {
+        name: 'BC Platforms (Singapore) | Bioinformatician - APAC Customer Success | 2021 Sep - Present',
+        description: 'On-boarding and assisting customers with BC Platforms lines of products.Pipeline building(DNAseq, RNAseq). Application installation on on- prem VM or cloud(Google Cloud, Microsoft Azure).',
+        // link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'PT Prodia Widyahusada Tbk (Jakarta) | Bioinformatics Scientist | Molecular Predictive and Diagnostics Lab | 2019 Feb - 2021 Sep',
+        description: 'Pipeline investigation, development, and validation for high throughput molecular biology testing (Prodia Genomics), including DNA microarray for polygenic risk score disease risk estimation and NGS-based non-invasive prenatal testing of chromosomal aneuploidies.',
+        // link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      // {
+      //   name: 'Hooli',
+      //   description: 'Full-Stack Developer, May 2015 - December 2017',
+      //   link: 'https://github.com/RyanFitzgerald/devfolio',
+      // },
+    ],
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Evaluation of Hypoxia-induced Astrocytic Commitment of Neuroepithelial Stem Cells',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Master\'s thesis project undertaken at the in vitro neural systems lab https://www.herlandlab.com/',
+        link: 'https://github.com/d-wdj/thesis/blob/master/Abstract.md',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Transcriptomic Analysis of Hepatocellular Carcinoma Progression',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A group project with the goal of investigating differentially expressed genes across 4 disease state progressions. Conducted at KTH Royal Institute of Technology',
+        link: 'https://github.com/d-wdj/BB2491/wiki',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Protein Secondary Structure Prediction using Supervised Machine Learning Methods',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Individual research project comparing support vector machine, decision tree, and random forest methods. Undertaken at Stockholm University.',
+        link: 'https://github.com/d-wdj/KB8024',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Tech Stack',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python, LaTeX, Bash, R, Git, Docker, Windows, macOS, Linux, Google Cloud, Microsoft Azure',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Computational & Analytics',
+        description: 'DNA genotyping, NGS analysis (DNAseq, RNAseq, long-read sequencing), Ligand docking',
       },
       {
-        name: 'Other',
+        name: 'Laboratory Skills',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Cell culture (CHO, HEK293, AF-22 ltNES, U87), Immunocytochemistry, RNA extraction, RT-qPCR, Droplet microfluidics, gold nanoparticle synthesis',
+      },
+      {
+        name: 'Topics of Interest',
+        description:
+          'Neuroscience, Connectomics, Neurodegeneration, Microfluidics, Material Science, Computational Biology, Bioinformatics, Machine Learning, Nanotechnology',
+      },
+      {
+        name: 'Languages',
+        description:
+          'Indonesian, English, Swedish',
       },
     ],
   },
