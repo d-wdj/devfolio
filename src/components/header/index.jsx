@@ -59,6 +59,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
+          {
+            <li className={classes.item}>
+              <a className={classes.link} href="mailto:hej@d-wdj.com">
+                Email
+              </a>
+            </li>
+          }
           {!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
