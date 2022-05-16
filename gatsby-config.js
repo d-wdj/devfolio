@@ -16,6 +16,25 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/d-wdj/`,
     // Content of the About Me section
     about: `Hey! I am an interdiscplinary scientist in the making. From nanotechnology to high-throughput molecular biology and bioinformatics, I am interested in many things. I am inclined to a research-driven career, combining wet-lab, engineering, and computational approaches for understanding why one would think of puppies when specifically asked to not to think about them (other adorable animals are just as applicable).`,
+    experience: [
+      {
+        name: 'BC Platforms (Singapore)',
+        subtitle: 'Bioinformatician - APAC Customer Success | 2021 Sep - Present',
+        description: 'On-boarding and assisting customers with BC Platforms lines of products. Pipeline building(DNAseq, RNAseq). Application installation on on-prem VM or cloud (Google Cloud, Microsoft Azure).',
+        link: 'https://www.bcplatforms.com/',
+      },
+      {
+        name: 'PT Prodia Widyahusada Tbk (Jakarta)',
+        subtitle: 'Bioinformatics Scientist | Molecular Predictive and Diagnostics Lab | 2019 Feb - 2021 Sep',
+        description: 'Pipeline investigation, development, and validation for high throughput molecular biology testing (Prodia Genomics), including DNA microarray for polygenic risk score disease risk estimation and NGS-based non-invasive prenatal testing of chromosomal aneuploidies.',
+        link: 'https://www.prodia.co.id/en',
+      },
+      // {
+      //   name: 'Hooli',
+      //   description: 'Full-Stack Developer, May 2015 - December 2017',
+      //   link: 'https://github.com/RyanFitzgerald/devfolio',
+      // },
+    ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -36,23 +55,6 @@ module.exports = {
         'Individual research project comparing support vector machine, decision tree, and random forest methods. Undertaken at Stockholm University.',
         link: 'https://github.com/d-wdj/KB8024',
       },
-    ],
-    experience: [
-      {
-        name: 'BC Platforms (Singapore) | Bioinformatician - APAC Customer Success | 2021 Sep - Present',
-        description: 'On-boarding and assisting customers with BC Platforms lines of products.Pipeline building(DNAseq, RNAseq). Application installation on on- prem VM or cloud(Google Cloud, Microsoft Azure).',
-        link: 'https://www.bcplatforms.com/',
-      },
-      {
-        name: 'PT Prodia Widyahusada Tbk (Jakarta) | Bioinformatics Scientist | Molecular Predictive and Diagnostics Lab | 2019 Feb - 2021 Sep',
-        description: 'Pipeline investigation, development, and validation for high throughput molecular biology testing (Prodia Genomics), including DNA microarray for polygenic risk score disease risk estimation and NGS-based non-invasive prenatal testing of chromosomal aneuploidies.',
-        link: 'https://www.prodia.co.id/en',
-      },
-      // {
-      //   name: 'Hooli',
-      //   description: 'Full-Stack Developer, May 2015 - December 2017',
-      //   link: 'https://github.com/RyanFitzgerald/devfolio',
-      // },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     // Optional: List your skills, they must have `name` and `description`.
