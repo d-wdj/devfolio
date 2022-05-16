@@ -41,12 +41,12 @@ module.exports = {
       {
         name: 'BC Platforms (Singapore) | Bioinformatician - APAC Customer Success | 2021 Sep - Present',
         description: 'On-boarding and assisting customers with BC Platforms lines of products.Pipeline building(DNAseq, RNAseq). Application installation on on- prem VM or cloud(Google Cloud, Microsoft Azure).',
-        // link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://www.bcplatforms.com/',
       },
       {
         name: 'PT Prodia Widyahusada Tbk (Jakarta) | Bioinformatics Scientist | Molecular Predictive and Diagnostics Lab | 2019 Feb - 2021 Sep',
         description: 'Pipeline investigation, development, and validation for high throughput molecular biology testing (Prodia Genomics), including DNA microarray for polygenic risk score disease risk estimation and NGS-based non-invasive prenatal testing of chromosomal aneuploidies.',
-        // link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://www.prodia.co.id/en',
       },
       // {
       //   name: 'Hooli',
