@@ -54,6 +54,7 @@ export const pageQuery = graphql`
         }
         experience {
           name
+          subtitle
           description
           link
         }
