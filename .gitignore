@@ -1,4 +1,5 @@
 .gitignore
+cloudbuild.yaml
 
 # Logs
 logs

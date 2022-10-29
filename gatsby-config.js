@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/cv`,
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://d-wdj.com/`,
